@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,400;0,500;1,400;1,500&display=swap');
+
+$primary-color: #ffa500;
+$white: #ffffff;
+
+*, body, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mt-1 {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1 0 auto;
+    max-width: 100%;
+    margin: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 4px;
+    color: $white;
+    background-color: $primary-color;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 360px) {
+   
+}
